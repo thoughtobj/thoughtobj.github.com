@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
         <title>bizwrap</title>
         <meta name="description" content="HTML5 & CSS3">
-        <meta name="keywords" content="HTML5, CSS3, Theme,bootstrap3,clean design">
+        <meta name="keywords" content="HTML5, CSS3, Theme,bootstrap3,clean design"> 
 
         <!--bootstrap3 css-->
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,6 @@
         <link href="assets/css/flexslider.css" rel="stylesheet">
         <!--animated  css-->
         <link href="assets/css/animate.css" rel="stylesheet">
-
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -31,10 +30,23 @@
 
     </head>
     <body>
-
         <header class="header-main">
+              <div class="top-bar">
 
-            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <ul class="info list-inline pull-left hidden-xs">
+                        <li><a href="#" class="hover-color"><i class="ion-ios-email-outline"></i> mail@domain.com</a></li>
+                        <li><i class="ion-iphone"></i> +91 (123) 456 78 90</li>
+                    </ul>  
+                    <div class="pull-right">
+                        <ul class="info list-inline hidden-xs">
+                            <li><a href="#" class="hover-color">Create an account?</a></li>
+                            <li><a href="#" class="hover-color"><i class="ion-man"></i> Login</a></li>
+                        </ul>
+                    </div>
+                </div><!--container end-->
+            </div><!--topbar end-->
+              <div class="navbar navbar-inverse sticky-nav sticky" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,16 +55,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="assets/img/thoughtobject1.png" class="img-responsive" alt=""></a>
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/logo-white.png" class="img-responsive" alt=""></a>
                     </div>
                     <div class="navbar-collapse collapse">
 
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active dropdown">
-                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Home</a>
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Home</a> 
                                 <ul class="dropdown-menu">
                                     <li><a href="index.html">Home - Default</a></li>
-                                    <!-- <li><a href="home-master.html">Home - Master Slider <span class="badge">Hot</span></a></li>
+                                     <li><a href="home-master.html">Home - Master Slider <span class="badge">Hot</span></a></li>
                                     <li><a href="home-animation.html">Home - Animations</a></li>
                                     <li><a href="home-boxed.html">Home boxed</a></li>
                                     <li class="dropdown-submenu">
@@ -67,28 +79,16 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li> -->
+                                    </li>
                                 </ul>
                             </li>
-                           <li class="dropdown">
-                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Vehicles</a>
-                            </li>
                             <li class="dropdown">
-                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Past Performance</a>
-                             </li>
-                             <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">About Us</a>
-                              </li>
-                              <li class="dropdown">
-                                   <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Contact Us</a>
-                               </li>
-                            <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Portfolio</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="portfolio.html">Portfolio 3 col</a></li>
                                     <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
                                     <li><a href="portfolio-full.html">Portfolio Full width</a></li>
-                                    <li><a href="portfolio-full-boxed.html">Full width boxed</a></li>
+                                    <li><a href="portfolio-full-boxed.html">Full width boxed</a></li>                            
                                     <li><a href="portfolio-single.html">Portfolio Single</a></li>
                                 </ul>
                             </li>
@@ -96,7 +96,7 @@
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Blog</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="blog-full.html">Blog Full width</a></li>
-                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>  
                                     <li><a href="blog-masonry.html">Blog Masonry</a></li>
                                     <li><a href="blog-post.html">Blog Post</a></li>
                                 </ul>
@@ -105,7 +105,7 @@
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Features</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="typography.html">Typography</a></li>
-                                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                                    <li><a href="shortcodes.html">Shortcodes</a></li>                              
                                     <li><a href="pricing.html">Pricing Tables</a></li>
                                     <li><a href="footer-option.html">Footer option</a></li>
                                 </ul>
@@ -128,65 +128,87 @@
                             </li>
                             <li class="social-nav"><a href="#"><i class="ion-social-facebook"></i></a></li>
                             <li class="social-nav"><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li class="social-nav"><a href="#"><i class="ion-social-youtube"></i></a></li> -->
+                            <li class="social-nav"><a href="#"><i class="ion-social-youtube"></i></a></li>
                         </ul>
 
                     </div><!--/.nav-collapse -->
                 </div><!--/.container-->
             </div><!--navigation end-->
-
         </header><!--header main end-->
 
 
-        <section id="slider-sec" class="slider-reg">
-            <div class="main-flex-slider">
-                <ul class="slides">
-                    <li>
-                        <figure>
+        <!--bootstrap carousel slider start-->
+        <!-- Carousel
+        ================================================== -->
+        <div class="home-slider">
+            <div id="bizwrap-Carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#bizwrap-Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#bizwrap-Carousel" data-slide-to="1" class=""></li>
+                    <li data-target="#bizwrap-Carousel" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active" id="item-1">
 
-                            <img src="assets/img/washingtondc.jpg" class="img-responsive" alt="slider-img-1">
-                            <figcaption class="slider-overlay ">
-                                <div class="slider-text animated fadeInDown">
-                                    <h1>Ideas. Intelligence. Integrity.</h1>
-                                    <p>
-                                        SDB Certified Women-Owned Small Business
-                                    </p>
-                                    <!-- <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Purchase Now</a></p> -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 text-center slider-wrapper">
+                                    <h1 class="animated fadeInDown delay-1">Hello! Welcome to Bizwrap</h1>
+                                    <p class=" animated fadeInDown delay-2">Bizwrap is loaded with useful features that suit your needs</p>
+                                    <p><a href="#" class="btn theme-btn-color btn-lg animated fadeInDown delay-3 btn-big">purchase Now</a></p>
                                 </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <!-- <li>
-                        <figure>
-                            <img src="assets/img/img-2.jpg" class="img-responsive" alt="slider-img-1">
-                            <figcaption class="slider-overlay">
-                                <div class="slider-text">
-                                    <h1>clean and modern design</h1>
-                                    <p>
-                                        Bizwrap is a Useful theme that you can use for your Business.
-                                    </p>
-                                    <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">View Portfolio</a></p>
+                            </div>
+                        </div>
+                    </div><!--slide item 1-->
+                    <div class="item" id="item-2">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="slider-wrapper-3">
+                                        <h1 class="animated fadeInLeft delay-3">Make it Awesome</h1>
+                                        <p class="animated fadeInLeft delay-4">
+                                            A best minimal template with east setup.
+                                        </p><br>
+                                        <p class=""><a href="portfolio.html" class=" btn theme-btn-default btn-lg btn-big animated fadeInLeft delay-5">See More</a></p>
+                                    </div>
                                 </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="assets/img/img-3.jpg" class="img-responsive" alt="slider-img-1">
-                            <figcaption class="slider-overlay">
-                                <div class="slider-text">
-                                    <h1>Perfect for Small Projects</h1>
-                                    <p>
-                                        Bizwrap mainly design for small business projects.
-                                    </p>
-                                    <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Contact us</a></p>
+                                <div class="col-sm-6 hidden-xs">
+                                    <div class="slider-video-wrapper">
+                                        <div class="responsive-video animated fadeInRight delay-6">
+                                            <iframe src="https://player.vimeo.com/video/70984663"></iframe>
+                                        </div>
+                                    </div>
                                 </div>
-                            </figcaption>
-                        </figure>
-                    </li> -->
-                </ul>
-            </div>
-        </section><!--main flex slider end-->
+                            </div>
+                        </div>
+                    </div><!--slide item 2-->
+                    <div class="item" id="item-3">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="slider-wrapper-2">
+                                        <h1 class="animated bounceIn delay-2">Perfect business solution</h1>
+                                        <p class="animated bounceIn delay-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                                        <br> <p><a href="https://wrapbootstrap.com/theme/bizwrap-responsive-html-template-WB07PT66X" target="_blank" class="btn btn-lg theme-btn-color animated bounceIn delay-4 btn-big">Purchase Now</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 hidden-xs">
+                                    <img src="assets/img/mackbook-pro.png" class="img-responsive animated bounceIn delay-5 slider-2img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--slide item 3-->
+                </div>
+                <a class="left carousel-control" href="#bizwrap-Carousel" data-slide="prev"><i class="ion-ios-arrow-left"></i></a>
+                <a class="right carousel-control" href="#bizwrap-Carousel" data-slide="next"><i class="ion-ios-arrow-right"></i></a>
+            </div><!-- /.carousel -->
+        </div><!--home-slider-->
+        <!--carousel slider end-->
+
+
         <div class="space-50"></div>
         <div class="container">
             <div class="row">
@@ -195,8 +217,8 @@
                     <h3 class="subtitle">With Clean and Modern Design</h3>
                 </div>
                 <div class="space-70"></div>
-                <div class=" col-sm-4">
-                    <div class="services-box">
+                <div class="col-md-3 col-sm-6">
+                    <div class="services-box wow animated fadeInLeft" data-wow-delay="0.3s">
                         <i class="ion-laptop"></i>
                         <h1>Responsive design</h1>
                         <p>
@@ -204,19 +226,28 @@
                         </p>
                     </div>
                 </div><!--services box-->
-                <div class=" col-sm-4">
-                    <div class="services-box">
-                        <i class="ion-ios-color-wand-outline"></i>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services-box wow animated fadeInLeft" data-wow-delay="0.5s">
+                        <i class="ion-beaker"></i>
                         <h1>Creative ideas</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisl risus, porta sit amet dui eget...
                         </p>
                     </div>
                 </div><!--services box-->
-                <div class="col-sm-4">
-                    <div class="services-box">
-                        <i class="ion-social-twitter-outline"></i>
+                <div class="col-md-3  col-sm-6">
+                    <div class="services-box wow animated fadeInLeft" data-wow-delay="0.7s">
+                        <i class="ion-social-twitter"></i>
                         <h1>Bootstrap3</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisl risus, porta sit amet dui eget...
+                        </p>
+                    </div>
+                </div><!--services box-->
+                <div class="col-md-3  col-sm-6">
+                    <div class="services-box wow animated fadeInLeft" data-wow-delay="0.9s">
+                        <i class="ion-thumbsup"></i>
+                        <h1>24/7 support</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisl risus, porta sit amet dui eget...
                         </p>
@@ -229,12 +260,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="heading-sec">Recent work</h3>
+                    <h3 class="heading-sec wow animated fadeInLeft" data-wow-delay="0.3s">Recent work</h3>
                 </div>
             </div><!--row-->
             <div class="row">
                 <div class="col-md-4 col-sm-6 margin-btm-40">
-                    <div class="portfolio-sec">
+                    <div class="portfolio-sec wow animated fadeInUp" data-wow-delay="0.4s">
                         <div class="portfolio-thumnail">
                             <a href="portfolio-single.html">
                                 <img src="assets/img/work/work-1.jpg" class="img-responsive" alt="">
@@ -248,7 +279,7 @@
                     </div>
                 </div><!--portfolio item -->
                 <div class="col-md-4 col-sm-6 margin-btm-40">
-                    <div class="portfolio-sec">
+                    <div class="portfolio-sec wow animated fadeInUp" data-wow-delay="0.6s">
                         <div class="portfolio-thumnail">
                             <a href="portfolio-single.html">
                                 <img src="assets/img/work/work-2.jpg" class="img-responsive" alt="">
@@ -262,7 +293,7 @@
                     </div>
                 </div><!--portfolio item -->
                 <div class="col-md-4 col-sm-6 margin-btm-40">
-                    <div class="portfolio-sec">
+                    <div class="portfolio-sec wow animated fadeInUp" data-wow-delay="0.8s">
                         <div class="portfolio-thumnail">
                             <a href="portfolio-single.html">
                                 <img src="assets/img/work/work-3.jpg" class="img-responsive" alt="">
@@ -278,7 +309,7 @@
 
 
                 <div class="col-md-4 col-sm-6 margin-btm-40">
-                    <div class="portfolio-sec">
+                    <div class="portfolio-sec wow animated fadeInUp" data-wow-delay="1.0s">
                         <div class="portfolio-thumnail">
                             <a href="portfolio-single.html">
                                 <img src="assets/img/work/work-4.jpg" class="img-responsive" alt="">
@@ -292,7 +323,7 @@
                     </div>
                 </div><!--portfolio item -->
                 <div class="col-md-4 col-sm-6 margin-btm-40">
-                    <div class="portfolio-sec">
+                    <div class="portfolio-sec wow animated fadeInUp" data-wow-delay="1.2s">
                         <div class="portfolio-thumnail">
                             <a href="portfolio-single.html">
                                 <img src="assets/img/work/work-5.jpg" class="img-responsive" alt="">
@@ -306,7 +337,7 @@
                     </div>
                 </div><!--portfolio item -->
                 <div class="col-md-4 col-sm-6 margin-btm-40">
-                    <div class="portfolio-sec">
+                    <div class="portfolio-sec wow animated fadeInUp" data-wow-delay="1.4s">
                         <div class="portfolio-thumnail">
                             <a href="portfolio-single.html">
                                 <img src="assets/img/work/work-6.jpg" class="img-responsive" alt="">
@@ -326,7 +357,7 @@
         <section id="content-region-1" class="padding-40">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 features">
+                    <div class="col-md-7 features wow animated fadeInLeft" data-wow-delay="0.3s">
                         <h3>Our services</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis. Praesent gravida dignissim felis, id sagittis mauris rutrum non. Nullam pretium id sem ut hendrerit.
@@ -339,7 +370,7 @@
                             <div class="col-md-9 services-text">
                                 <h4 class="heading-mini">100% Responsive layout</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis. 
                                 </p>
                             </div>
                         </div><!--services list-->
@@ -351,7 +382,7 @@
                             <div class="col-md-9 services-text">
                                 <h4 class="heading-mini">Clean code</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis. 
                                 </p>
                             </div>
                         </div><!--services list-->
@@ -363,58 +394,40 @@
                             <div class="col-md-9 services-text">
                                 <h4 class="heading-mini">Easy customization</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis. 
                                 </p>
                             </div>
                         </div><!--services list-->
-
-
+                        <div class="space-30"></div>
+                        <div class="row">
+                            <div class="col-md-3 services-icon">
+                                <i class="ion-social-twitter"></i>
+                            </div>
+                            <div class="col-md-9 services-text">
+                                <h4 class="heading-mini">Bootstrap3</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ipsum mauris. Fusce condimentum mollis eros vitae facilisis. 
+                                </p>
+                            </div>
+                        </div><!--services list-->
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 wow animated fadeInRight" data-wow-delay="0.5s">
                         <img src="assets/img/ipad.png" class="img-responsive" alt="">
                     </div>
                 </div>
 
             </div><!--container-->
         </section><!--features end-->
-
-        <section id="content-region-2" class="padding-40 parallax-1">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="testimonials">
-                            <ul class="slides">
-                                <li>
-                                    <p class="testi-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus massa in mauris rhoncus aliquam. Suspendisse nec velit vestibulum, euismod quam id, pellentesque elit. Ut a interdum metus, vel dictum nibh."<p>
-                                        <span class="testi-person">John Doe - company inc  </span>
-                                </li>
-                                <li>
-                                    <p class="testi-text">"Sed fringilla sem sed massa ullamcorper, vitae rutrum justo sodales. Cras sed iaculis enim. Sed aliquet viverra nisl a tristique. Curabitur vitae mauris sem. Pellentesque iaculis nibh leo, mattis aliquet arcu tincidunt at."<p>
-                                        <span class="testi-person">John terry - company inc  </span>
-                                </li>
-                                <li>
-                                    <p class="testi-text">"Cras adipiscing odio nunc, non laoreet urna suscipit ac. Pellentesque congue egestas risus viverra pharetra. Morbi pretium orci magna, vitae mattis nisl viverra eleifend. Vestibulum euismod erat non ligula hendrerit tincidunt."<p>
-                                        <span class="testi-person">victoria - company inc </span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section> <!--testimonials section end here-->
         <div class="space-70"></div>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="heading-sec">Latest news</h3>
+                    <h3 class="heading-sec wow animated animated flipInX">Latest news</h3>
                 </div>
             </div><!--row-->
             <div class="row">
                 <div class="col-md-4 col-sm-6 margin-btm-20">
-                    <div class="news-sec">
+                    <div class="news-sec wow animated bounceIn" data-wow-delay="0.3s">
                         <div class="news-thumnail">
                             <a href="blog-post.html">
                                 <img src="assets/img/blog/blog-1.jpg" class="img-responsive" alt="">
@@ -430,7 +443,7 @@
                     </div>
                 </div><!--latest news items-->
                 <div class="col-md-4 col-sm-6 margin-btm-20">
-                    <div class="news-sec">
+                    <div class="news-sec wow animated bounceIn" data-wow-delay="0.6s">
                         <div class="news-thumnail">
                             <a href="blog-post.html">
                                 <img src="assets/img/blog/blog-2.jpg" class="img-responsive" alt="">
@@ -446,7 +459,7 @@
                     </div>
                 </div><!--latest news items-->
                 <div class="col-md-4 col-sm-6 margin-btm-20">
-                    <div class="news-sec">
+                    <div class="news-sec wow animated bounceIn" data-wow-delay="0.9s">
                         <div class="news-thumnail">
                             <a href="blog-post.html">
                                 <img src="assets/img/blog/blog-4.jpg" class="img-responsive" alt="">
@@ -464,13 +477,7 @@
             </div><!--row end-->
         </div><!--container recent news end-->
         <div class="space-50"></div>
-        <div class="cta-bg">
-            <div class="container text-center">
-                <h3>Simple and Minimal Design
-                    <a href="#" class="btn btn-lg btn-white btn-radius">Purchase Now</a>
-                </h3>
-            </div>
-        </div>
+
         <div id="footer">
             <div class="container">
                 <div class="row">
@@ -536,19 +543,19 @@
                             </form>
                         </div>
                     </div><!--get in touch col end-->
-                </div><!--footer main row end-->
+                </div><!--footer main row end-->  
                 <div class="space-70"></div>
                 <div class="row">
                     <div class="col-md-12 text-center footer-bottom">
-                        <a href="index.html"> <img src="assets/img/thoughtobject1.png" alt=""></a>
+                        <a href="index.html"> <img src="assets/img/logo-white.png" alt=""></a>
                         <div class="space-20"></div>
                         <span>&copy;2014.all right resrved.Design by design_mylife</span>
                     </div>
                 </div><!--footer copyright row end-->
             </div><!--container-->
         </div><!--footer main end-->
-
-        <!--scripts-->
+          <!--scripts-->
+      <!--scripts-->
         <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="assets/js/modernizr.custom.97074.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
